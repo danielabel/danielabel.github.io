@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+<main class="post-page">
+  <a href="/{{ section }}/" class="post-back">← {{ section | capitalize }}</a>
+  <header class="post-header">
+    <h1 class="post-title">{{ title }}</h1>
+    <div class="post-meta">{{ page.date | readableDate }}</div>
+  </header>
+  <div class="post-body">
+    {{ content | safe }}
+  </div>
+</main>

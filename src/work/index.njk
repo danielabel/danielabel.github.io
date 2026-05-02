@@ -1,0 +1,26 @@
+---
+layout: layouts/section-index.njk
+section: work
+title: The Work
+---
+<a href="/" class="section-back">← Home</a>
+
+<header>
+  <h1 class="section-title">The Work</h1>
+  <p class="section-description">The craft of technical leadership — structures, practices, and the shape of the role.</p>
+</header>
+
+<p class="section-external">
+  Currently living at <a href="https://well-rounded-tech-lead.dev" rel="noopener">well-rounded-tech-lead.dev</a>.
+  <br>Taking you there in <span id="countdown">10</span>…
+</p>
+
+<script>
+  const dest = "https://well-rounded-tech-lead.dev";
+  let n = 10;
+  const el = document.getElementById("countdown");
+  const tick = setInterval(() => {
+    el.textContent = --n;
+    if (n <= 0) { clearInterval(tick); window.location = dest; }
+  }, 1000);
+</script>

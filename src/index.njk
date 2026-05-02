@@ -1,0 +1,32 @@
+---
+layout: layouts/home.njk
+---
+<main class="stage">
+  <div class="ornament" id="ornament">
+    <span>·</span><span>&nbsp;&nbsp;</span><span>◦</span><span>&nbsp;&nbsp;</span><span>·</span>
+  </div>
+
+  <blockquote>
+    <span class="word">Abandon</span>
+    <span class="word">knowledge</span>
+    <span class="word">and</span>
+    <span class="word">your</span>
+    <span class="word">worries</span>
+    <span class="word">are</span>
+    <span class="word">over.</span>
+  </blockquote>
+
+  <div class="attribution">Lao Tzu</div>
+
+  <nav class="home-nav">
+    <a href="/way/">The Way</a>
+    <span class="sep">·</span>
+    <a href="/work/">The Work</a>
+  </nav>
+</main>
+
+<script>
+  setTimeout(() => {
+    document.getElementById('ornament').classList.add('breathing');
+  }, 2300);
+</script>

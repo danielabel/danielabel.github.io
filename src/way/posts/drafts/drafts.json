@@ -1,0 +1,6 @@
+{
+  "layout": "layouts/post.njk",
+  "tags": "way",
+  "section": "way",
+  "draft": true
+}
