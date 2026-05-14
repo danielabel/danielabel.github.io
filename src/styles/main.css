@@ -106,15 +106,31 @@ blockquote .word {
   animation: rise 1.4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
 }
 
+/* stanza 1 — children 1–4 */
 .word:nth-child(1)  { animation-delay: 0.8s; }
 .word:nth-child(2)  { animation-delay: 1.0s; }
 .word:nth-child(3)  { animation-delay: 1.2s; }
 .word:nth-child(4)  { animation-delay: 1.4s; }
-.word:nth-child(5)  { animation-delay: 1.6s; }
-.word:nth-child(6)  { animation-delay: 1.8s; }
-.word:nth-child(7)  { animation-delay: 2.0s; }
-.word:nth-child(8)  { animation-delay: 2.2s; }
-.word:nth-child(9)  { animation-delay: 2.4s; }
+/* child 5 is <br> */
+/* stanza 2 — children 6–10, pause after stanza 1 */
+.word:nth-child(6)  { animation-delay: 2.6s; }
+.word:nth-child(7)  { animation-delay: 2.8s; }
+.word:nth-child(8)  { animation-delay: 3.0s; }
+.word:nth-child(9)  { animation-delay: 3.2s; }
+.word:nth-child(10) { animation-delay: 3.4s; }
+/* child 11 is <br> */
+/* stanza 3 — children 12–15, pause after stanza 2 */
+.word:nth-child(12) { animation-delay: 4.6s; }
+.word:nth-child(13) { animation-delay: 4.8s; }
+.word:nth-child(14) { animation-delay: 5.0s; }
+.word:nth-child(15) { animation-delay: 5.2s; }
+/* child 16 is <br> */
+/* stanza 4 — children 17–21, pause after stanza 3 */
+.word:nth-child(17) { animation-delay: 6.4s; }
+.word:nth-child(18) { animation-delay: 6.6s; }
+.word:nth-child(19) { animation-delay: 6.8s; }
+.word:nth-child(20) { animation-delay: 7.0s; }
+.word:nth-child(21) { animation-delay: 7.2s; }
 
 .attribution {
   margin-top: 3rem;
@@ -123,7 +139,7 @@ blockquote .word {
   text-transform: uppercase;
   color: var(--whisper);
   opacity: 0;
-  animation: fade-in 2s ease-out 3s forwards;
+  animation: fade-in 2s ease-out 8.5s forwards;
 }
 
 .attribution::before,
@@ -141,7 +157,7 @@ blockquote .word {
   text-transform: uppercase;
   color: var(--whisper);
   opacity: 0;
-  animation: fade-in 2s ease-out 4s forwards;
+  animation: fade-in 2s ease-out 9.5s forwards;
 }
 
 .home-nav a {
