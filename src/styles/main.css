@@ -302,6 +302,12 @@ blockquote .word {
   padding: 5rem 2rem 8rem;
 }
 
+@media (min-width: 768px) {
+  .post-page {
+    max-width: 80ch;
+  }
+}
+
 .post-back {
   font-family: "Cormorant Unicase", serif;
   font-size: 0.75rem;
