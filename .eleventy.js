@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles");
   eleventyConfig.addPassthroughCopy({ "src/.nojekyll": ".nojekyll" });
+  eleventyConfig.addPassthroughCopy({ "CNAME": "CNAME" });
 
   // In production builds, exclude drafts/ directories entirely
   if (process.env.ELEVENTY_RUN_MODE === "build") {
