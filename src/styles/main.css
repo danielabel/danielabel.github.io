@@ -145,13 +145,15 @@ blockquote .word {
 }
 
 .home-nav a {
-  color: var(--whisper);
-  text-decoration: none;
-  transition: color 0.4s ease;
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  text-decoration-color: rgba(42, 37, 32, 0.25);
+  transition: text-decoration-color 0.4s ease;
 }
 
 .home-nav a:hover {
-  color: var(--ink);
+  text-decoration-color: var(--ink);
 }
 
 .home-nav .sep {
@@ -196,15 +198,17 @@ blockquote .word {
   font-size: 0.75rem;
   letter-spacing: 0.4em;
   text-transform: uppercase;
-  color: var(--whisper);
-  text-decoration: none;
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  text-decoration-color: rgba(42, 37, 32, 0.25);
   display: inline-block;
   margin-bottom: 4rem;
-  transition: color 0.3s ease;
+  transition: text-decoration-color 0.3s ease;
 }
 
 .section-back:hover {
-  color: var(--ink);
+  text-decoration-color: var(--ink);
 }
 
 .section-title {
@@ -238,15 +242,17 @@ blockquote .word {
 
 .post-list a {
   color: var(--ink);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  text-decoration-color: rgba(42, 37, 32, 0.25);
   font-size: 1.25rem;
   font-weight: 300;
   display: block;
-  transition: opacity 0.3s ease;
+  transition: text-decoration-color 0.3s ease;
 }
 
 .post-list a:hover {
-  opacity: 0.6;
+  text-decoration-color: var(--ink);
 }
 
 .post-date {
@@ -285,15 +291,17 @@ blockquote .word {
   font-size: 0.75rem;
   letter-spacing: 0.4em;
   text-transform: uppercase;
-  color: var(--whisper);
-  text-decoration: none;
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  text-decoration-color: rgba(42, 37, 32, 0.25);
   display: inline-block;
   margin-bottom: 4rem;
-  transition: color 0.3s ease;
+  transition: text-decoration-color 0.3s ease;
 }
 
 .post-back:hover {
-  color: var(--ink);
+  text-decoration-color: var(--ink);
 }
 
 .post-header {
@@ -348,6 +356,78 @@ blockquote .word {
 .post-body a {
   color: var(--ink);
   text-underline-offset: 3px;
+}
+
+/* ── Subscribe block ── */
+
+.subscribe-block {
+  margin-top: 4rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(42, 37, 32, 0.1);
+  text-align: center;
+}
+
+.subscribe-label {
+  font-family: "Cormorant Unicase", serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--whisper);
+  margin-bottom: 1.25rem;
+}
+
+.subscribe-form {
+  display: inline-flex;
+  gap: 0;
+}
+
+.subscribe-input {
+  flex: 1;
+  background: transparent;
+  border: 1px solid rgba(42, 37, 32, 0.15);
+  border-right: none;
+  min-width: 0;
+  padding: 0.6em 1em;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--ink);
+  outline: none;
+  transition: border-color 0.3s ease;
+  width: 22ch;
+}
+
+.subscribe-input::placeholder {
+  color: rgba(42, 37, 32, 0.3);
+}
+
+.subscribe-input:focus {
+  border-color: rgba(42, 37, 32, 0.3);
+}
+
+.subscribe-btn {
+  background: transparent;
+  border: 1px solid rgba(42, 37, 32, 0.15);
+  padding: 0.6em 1.2em;
+  font-family: "Cormorant Unicase", serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(42, 37, 32, 0.35);
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.subscribe-btn:hover {
+  color: var(--ink);
+  border-color: rgba(42, 37, 32, 0.4);
+}
+
+.subscribe-confirm {
+  font-style: italic;
+  color: var(--whisper);
+  font-size: 1rem;
 }
 
 /* ── Responsive ── */
