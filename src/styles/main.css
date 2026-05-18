@@ -407,58 +407,9 @@ blockquote .word {
   margin-bottom: 1.25rem;
 }
 
-.subscribe-form {
-  display: inline-flex;
-  gap: 0;
-}
-
-.subscribe-input {
-  flex: 1;
-  background: transparent;
-  border: 1px solid rgba(42, 37, 32, 0.15);
-  border-right: none;
-  min-width: 0;
-  padding: 0.6em 1em;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1rem;
-  font-weight: 300;
-  color: var(--ink);
-  outline: none;
-  transition: border-color 0.3s ease;
-  width: 22ch;
-}
-
-.subscribe-input::placeholder {
-  color: rgba(42, 37, 32, 0.3);
-}
-
-.subscribe-input:focus {
-  border-color: rgba(42, 37, 32, 0.3);
-}
-
-.subscribe-btn {
-  background: transparent;
-  border: 1px solid rgba(42, 37, 32, 0.15);
-  padding: 0.6em 1.2em;
-  font-family: "Cormorant Unicase", serif;
-  font-size: 0.7rem;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: rgba(42, 37, 32, 0.35);
-  cursor: pointer;
-  transition: color 0.3s ease, border-color 0.3s ease;
-  white-space: nowrap;
-}
-
-.subscribe-btn:hover {
-  color: var(--ink);
-  border-color: rgba(42, 37, 32, 0.4);
-}
-
-.subscribe-confirm {
-  font-style: italic;
-  color: var(--whisper);
-  font-size: 1rem;
+.subscribe-block iframe {
+  display: block;
+  margin: 0 auto;
 }
 
 /* ── Responsive ── */
