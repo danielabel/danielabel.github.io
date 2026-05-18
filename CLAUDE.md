@@ -82,6 +82,49 @@ The blue tint colour scheme is already written — just uncomment the block near
 }
 ```
 
+## Always refresh the worktree first
+Before starting any work, pull from origin in case other agents have committed changes:
+
+```
+git fetch origin && git merge origin/main
+```
+
+## GitHub Pages — custom domain (CNAME)
+The CNAME file must be present in `_site/` for GitHub Pages to keep the custom domain across deployments. It is copied via `.eleventy.js`:
+
+```js
+eleventyConfig.addPassthroughCopy({ "CNAME": "CNAME" });
+```
+
+Do not remove this line. Without it, `wayofthetechlead.com` 404s after every deploy because GitHub Pages drops the custom domain when CNAME is absent from the artifact.
+
+## Newsletter — Beehiiv
+Subscribe form uses a custom-styled HTML form (not the Beehiiv iframe widget) to match the site aesthetic. It submits via `fetch` to:
+
+```
+POST https://subscribe-forms.beehiiv.com/api/v3/publications/{publicationId}/subscriptions
+```
+
+- Publication ID: `67728396-806b-48bd-a082-3e11ff06a4a5`
+- Form ID: `c57448c1-a19e-4653-ad82-bdcb613abf42`
+
+The form appears on `/way/` (section index) and at the bottom of every post. The JS handler lives in `src/_includes/layouts/base.njk`.
+
+## Link style — sitewide pattern
+All clickable links use ink colour + fine underline with offset:
+
+```css
+color: var(--ink);
+text-decoration: underline;
+text-underline-offset: 0.25em;
+text-decoration-color: rgba(42, 37, 32, 0.25);
+```
+
+Hover darkens the underline to full ink. This applies to `.home-nav a`, `.section-back`, `.post-back`, and `.post-list a`.
+
+## Homepage quote animation
+The Lao Tzu quote on the homepage animates in word-by-word, grouped by stanza (one line at a time with pauses between). Each `<span class="word">` has an `animation-delay` set in `main.css`. `<br>` tags between stanzas count as child elements and shift the nth-child positions — update delays carefully when changing the quote.
+
 ## Design tokens
 All in `:root` in `src/styles/main.css`. Section overrides work by setting `data-section` on `<body>` (handled automatically via front matter `section` property).
 
