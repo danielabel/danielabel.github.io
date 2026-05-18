@@ -40,7 +40,12 @@ layout: layouts/home.njk
 </main>
 
 <script>
+  if (localStorage.getItem('visited')) {
+    document.body.classList.add('visited');
+  } else {
+    localStorage.setItem('visited', '1');
+  }
   setTimeout(() => {
     document.getElementById('ornament').classList.add('breathing');
-  }, 9000);
+  }, 6500);
 </script>
