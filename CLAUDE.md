@@ -12,6 +12,8 @@ Before deploying anything, run the dev server and check it in the browser.
 npm start
 ```
 
+Note: `.claude/launch.json` uses `npx eleventy --serve` directly (not `npm start`) because the preview server's shell doesn't resolve `node_modules/.bin` the same way npm does.
+
 ## No PR workflow
 Commit directly to `main`. GitHub Actions handles the build and deploy automatically.
 
@@ -52,6 +54,9 @@ date: 2026-05-01
 ```
 
 `posts.json` supplies the layout, tag, and section automatically.
+
+### Post title convention
+Titles follow the pattern **`About: Title Case Phrase`** — check existing posts before publishing to ensure consistency.
 
 ## Draft workflow — two tiers
 
