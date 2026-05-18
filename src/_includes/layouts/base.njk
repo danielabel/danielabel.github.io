@@ -12,24 +12,5 @@
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}{% if section %} data-section="{{ section }}"{% endif %}>
   {{ content | safe }}
-<script>
-  document.addEventListener('submit', async function(e) {
-    const form = e.target.closest('.subscribe-form');
-    if (!form) return;
-    e.preventDefault();
-    const email = form.querySelector('.subscribe-input').value;
-    const pubId = form.dataset.beehiivPub;
-    const formId = form.dataset.beehiivForm;
-    try {
-      await fetch(`https://subscribe-forms.beehiiv.com/api/v3/publications/${pubId}/subscriptions`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, form_id: formId, utm_source: 'website' })
-      });
-    } catch(_) {}
-    form.hidden = true;
-    form.closest('.subscribe-block').querySelector('.subscribe-confirm').hidden = false;
-  });
-</script>
 </body>
 </html>
