@@ -14,6 +14,9 @@ npm start
 
 Note: `.claude/launch.json` uses `npx eleventy --serve` directly (not `npm start`) because the preview server's shell doesn't resolve `node_modules/.bin` the same way npm does.
 
+## Never replace third-party widgets with custom code
+Do not replace the Beehiiv embed, or any other third-party widget, with a custom HTML/JS implementation. This is a bad choice — third-party APIs change without notice and custom replacements break silently, often in ways that are invisible to the user (e.g. a form that appears to submit but doesn't). Always use the official embed provided by the service.
+
 ## No PR workflow
 Commit directly to `main`. GitHub Actions handles the build and deploy automatically.
 
