@@ -12,5 +12,16 @@
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}{% if section %} data-section="{{ section }}"{% endif %}>
   {{ content | safe }}
+  <script>
+    (function () {
+      function labelBeehiivIframes() {
+        document.querySelectorAll('.subscribe-block iframe').forEach(function (frame) {
+          if (!frame.title) frame.title = 'Newsletter subscription form';
+        });
+      }
+      labelBeehiivIframes();
+      new MutationObserver(labelBeehiivIframes).observe(document.body, { childList: true, subtree: true });
+    })();
+  </script>
 </body>
 </html>
