@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "wayofthetechlead",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["start"],
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["eleventy", "--serve"],
       "port": 8080
     }
   ]
