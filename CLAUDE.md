@@ -46,6 +46,16 @@ src/
     site.js                  ← title, url, description
 ```
 
+## Opening quote convention
+Each post begins with a blockquote — a Tao Te Ching (or similar) epigraph followed by the attribution on the next line. Use markdown blockquote syntax so it picks up the site's blockquote styles:
+
+```markdown
+> "Quote text here."  
+> – Source, Chapter N
+```
+
+Do not write the quote as plain paragraph text.
+
 ## Writing a post (The Way)
 Drop a `.md` file in `src/way/posts/`. Front matter needs only:
 
