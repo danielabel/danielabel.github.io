@@ -37,3 +37,13 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+      - name: Smoke test
+        run: |
+          for i in {1..8}; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://wayofthetechlead.com/)
+            if [ "$STATUS" = "200" ]; then echo "Site up ✓"; exit 0; fi
+            echo "Attempt $i: got $STATUS, retrying in 15s..."
+            sleep 15
+          done
+          echo "Site still returning $STATUS after retries — re-run this job to redeploy"
+          exit 1
