@@ -4,7 +4,7 @@ date: 2026-05-18
 ---
 
 > "Those who show no trust will not be trusted."  
-> – Tao Te Ching, Chapter 17
+> – Tao Te Ching, Chapter 17 (Stefan Stenudd translation)
 
 Tech Leads are handed big responsibilities and commitments. Necks are on the line for code and product quality, risk management and oversight, good system design. We are also handed a set of individuals, often with a mix of skills and experiences, to produce something new.
 
