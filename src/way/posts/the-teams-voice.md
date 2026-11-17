@@ -3,8 +3,8 @@ title: "About: The Team's Voice"
 date: 2026-06-08
 ---
 
-> "Proceeding calmly, valuing their words, Task accomplished, matter settled, The people all say: We did it naturally!"  
-> – Tao Te Ching, Chapter 17 (Derek Lin translation)
+> "Rivers and oceans can be the kings of a hundred valleys / Because of their goodness in staying low"  
+> – Tao Te Ching, Chapter 66 (Derek Lin translation)
 
 Engineering teams don't want to be told what to do. They want leadership. That's a difference that matters, especially when you are joining a new team.
 
@@ -60,7 +60,7 @@ The parts of this journey to success the team aren't ready to hold and own, need
 
 To provide for the team, I surrendered my need for control and knowledge. Instead I focused forwards and we flowed like water finding the space through rock.
 
-I needed to trust them and they needed to trust me. The Tao Te Ching says "Those who show no trust will not be trusted." It was my job first to ask them how they would solve the problem, and then let them trust me to frame it into a step towards a greater solution.
+I needed to trust them and they needed to trust me. The Tao Te Ching says ["Those who show no trust will not be trusted."](/way/posts/about-building-trust/) It was my job first to ask them how they would solve the problem, and then let them trust me to frame it into a step towards a greater solution.
 
 ### Listen first
 
