@@ -31,7 +31,8 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("excerpt", function (content) {
-    const stripped = (content || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+    const withoutBlockquote = (content || "").replace(/<blockquote[\s\S]*?<\/blockquote>/gi, "");
+    const stripped = withoutBlockquote.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
     return stripped.length > 280 ? stripped.slice(0, 280).replace(/\s\S+$/, "") + "…" : stripped;
   });
 
