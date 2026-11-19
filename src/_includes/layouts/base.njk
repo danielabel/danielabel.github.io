@@ -6,6 +6,8 @@
   <title>{{ (title + " — ") if title }}{{ site.title }}</title>
   <meta name="description" content="{{ description or site.description }}">
 
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
+
   <!-- Open Graph / social cards -->
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{{ (title + ' — ') if title }}{{ site.title }}">
