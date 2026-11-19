@@ -15,6 +15,7 @@ eleventyExcludeFromCollections: true
       <title>{{ post.data.title }}</title>
       <link>{{ site.url }}{{ post.url }}</link>
       <guid>{{ site.url }}{{ post.url }}</guid>
+      <description>{{ post.templateContent | excerpt | escape }}</description>
       <pubDate>{{ post.date.toUTCString() }}</pubDate>
     </item>
     {%- endfor %}

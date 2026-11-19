@@ -30,6 +30,11 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => b.date - a.date);
   });
 
+  eleventyConfig.addFilter("excerpt", function (content) {
+    const stripped = (content || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+    return stripped.length > 280 ? stripped.slice(0, 280).replace(/\s\S+$/, "") + "…" : stripped;
+  });
+
   eleventyConfig.addFilter("readableDate", function (date) {
     return new Date(date).toLocaleDateString("en-GB", {
       year: "numeric",
