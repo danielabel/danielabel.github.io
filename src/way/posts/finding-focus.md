@@ -34,7 +34,7 @@ If these people were to be a team, they needed to find focus. And operate toward
 
 ### How the team found their focus
 
-Inspired by Rumelt's "Good Strategy Bad Strategy", I ran a set of structured discussion sessions. We worked to answer three questions:
+Inspired by [Rumelt's "Good Strategy Bad Strategy"](https://en.wikipedia.org/wiki/Good_Strategy_Bad_Strategy), I ran a set of structured discussion sessions. We worked to answer three questions:
 
 1. **A Diagnosis: *Where are we now?***  
    The current situation, both good and bad, focused on reality, not blame, nor history.
