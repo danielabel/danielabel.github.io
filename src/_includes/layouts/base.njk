@@ -10,7 +10,7 @@
 
   <!-- Open Graph / social cards -->
   <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:title" content="{{ (title + ' — ') if title }}{{ site.title }}">
+  <meta property="og:title" content="{{ title or site.title }}">
   <meta property="og:description" content="{{ description or postDescription or site.description }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="{{ 'article' if date else 'website' }}">
@@ -21,7 +21,7 @@
 
   <!-- Twitter / X card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ (title + ' — ') if title }}{{ site.title }}">
+  <meta name="twitter:title" content="{{ title or site.title }}">
   <meta name="twitter:description" content="{{ description or postDescription or site.description }}">
   <meta name="twitter:image" content="{{ site.url }}/images/social-card.png">
 
