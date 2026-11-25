@@ -28,7 +28,7 @@ This isn't a story about a bad team. This is a story about a team whose spirit e
 
 ### Arrival
 
-I was dropped in to solve this problem — half of a pair of lead consultants. The other lead took on business damage-control whilst I focused on getting quality to where it needed to be. Metaphorical seat-belt on, I prepared myself for a bumpy landing. 
+I was dropped in to solve this problem - half of a pair of lead consultants. The other lead took on business damage-control whilst I focused on getting quality to where it needed to be. Metaphorical seat-belt on, I prepared myself for a bumpy landing. 
 
 The team was unhappy. The pile of consequences bubbled up into arguments. They did not want to be where they were.
 

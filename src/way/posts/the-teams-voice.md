@@ -64,7 +64,7 @@ I needed to trust them and they needed to trust me. The Tao Te Ching says ["Thos
 
 ### Listen first
 
-Listen first, especially at points where it feels control is needed. Your position provides you with authority — it's said that [leaders carry an invisible gun](https://www.modernleader.is/p/invisible-gun). Your curiosity can sound like a command and your ideas can stamp over others — leaving a feeling of powerlessness or passivity. Let their ideas speak first. You can provide space, steering, and direct positively — so all flow forward.
+Listen first, especially at points where it feels control is needed. Your position provides you with authority - it's said that [leaders carry an invisible gun](https://www.modernleader.is/p/invisible-gun). Your curiosity can sound like a command and your ideas can stamp over others - leaving a feeling of powerlessness or passivity. Let their ideas speak first. You can provide space, steering, and direct positively - so all flow forward.
 
 That doesn't mean you don't have input to give, but you also have limited time and energy. Use it wisely and without ego. Find the best ideas from you and the team. Bring focus to where it matters. Adding your voice when it matters is a much more powerful way to operate. You conserve, you assemble, you bring focus.
 

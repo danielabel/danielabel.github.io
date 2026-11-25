@@ -45,7 +45,7 @@ Inspired by [Rumelt's "Good Strategy Bad Strategy"](https://en.wikipedia.org/wik
 3. **Action orientation: *How do we move forward?***  
    Guardrails to guide us and keep us safe and coherent actions to move us forward. What's within reach? What moves us closer to the mission's goal?
 
-It turned out the key part was the writing (and sharing) of the mission statement. Each team member wrote their own version and brought it to the group, and they were surprisingly similar. None of the team saw value in maintaining the status quo. They wanted to restructure, giving connected teams freedom to move and own their own domains. They wanted to scale and shape the technologies so they were suitable for how the business wanted to grow and be. Everything else was either firefighting — important but needed time-bounding — or noise that distracted from the enabling change only they could deliver.
+It turned out the key part was the writing (and sharing) of the mission statement. Each team member wrote their own version and brought it to the group, and they were surprisingly similar. None of the team saw value in maintaining the status quo. They wanted to restructure, giving connected teams freedom to move and own their own domains. They wanted to scale and shape the technologies so they were suitable for how the business wanted to grow and be. Everything else was either firefighting - important but needed time-bounding - or noise that distracted from the enabling change only they could deliver.
 
 ### Joined up and looking forward
 
@@ -57,7 +57,7 @@ The team couldn't say no to all general maintenance, but they did give it a budg
 
 The workshop gave the team a pause, and asked them for their truth. That truth became a mission, and the mission cleared the space to work in.
 
-Before the workshop-driven reset, the team was always full. Owning a hundred things, they could easily be given another — after all, what's one more? Owning a clear goal meant not only could they say no, but non-aligned work was less likely to come their way. Clearing away noise and keeping it away.
+Before the workshop-driven reset, the team was always full. Owning a hundred things, they could easily be given another - after all, what's one more? Owning a clear goal meant not only could they say no, but non-aligned work was less likely to come their way. Clearing away noise and keeping it away.
 
 Owning everything also lets a team hide from each other. With so much to do, collaborating, mobbing, only happens in a crisis. Firefighting, not fireproofing. Instead everyone can get heads down in their area of expertise. When that becomes normal, sharing, teaching, can quietly disappear. No one has to agree. Everyone can, to an extent, do as they please, whilst the key problem does not get solved.
 

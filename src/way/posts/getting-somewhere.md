@@ -40,13 +40,13 @@ There was a long game to play. A change to company culture. Problems that were b
 
 Reaching for quick wins felt safe, but that wasn't the game now. We were funded to solve the big-ticket problems that had been identified, so I picked one: vulnerability management.
 
-The aim of product teams managing the vulnerability exposure and risk was a tough nut to crack. It meant removing friction, providing new calls to action, clear measurement and target setting. A mix of new software, governance and culture change — a massive leap for any security team.
+The aim of product teams managing the vulnerability exposure and risk was a tough nut to crack. It meant removing friction, providing new calls to action, clear measurement and target setting. A mix of new software, governance and culture change - a massive leap for any security team.
 
-We couldn't get there from where we were. We could be reactive and choose to do something within reach. We could attempt to build a plan, but would likely enter analysis paralysis — we didn't know enough: new domain, new team, new hires. We needed to make moves, but they needed to fit what we were there for.
+We couldn't get there from where we were. We could be reactive and choose to do something within reach. We could attempt to build a plan, but would likely enter analysis paralysis - we didn't know enough: new domain, new team, new hires. We needed to make moves, but they needed to fit what we were there for.
 
 I could see two traps ahead. The first I'd already seen with my seconded engineers. Four or five months in, we had a big review where I had to convince them how much they'd achieved. They were product developers, used to shipping in weeks, and on a novel problem in a new domain they just couldn't see their own progress. I was seeing early signs of the same in the new hires. If the team couldn't hold the long goal, they'd struggle to own it or feel powerful in it.
 
-The second trap was mine. This terrain was new to me too. I can usually see way over the horizon, but here, I wasn't confident I had the answers, and I could easily lead us down blind alleys. We weren't going round in circles, not yet — but I could see that we would.
+The second trap was mine. This terrain was new to me too. I can usually see way over the horizon, but here, I wasn't confident I had the answers, and I could easily lead us down blind alleys. We weren't going round in circles, not yet - but I could see that we would.
 
 ### The move: horizons
 

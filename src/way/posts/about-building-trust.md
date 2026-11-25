@@ -34,13 +34,13 @@ In a team, trust can be something that gets built. And like any structure, it ha
 
 I spent some time leading a team at a betting company. Integrating a white-label platform into multiple branded homes. I had two talented senior engineers working with me, and it was clear both were not happy. Neither was interacting well or producing the results I expected. I sat down with both to find out what was going on.
 
-The first was burnt-out from rolling with the punches. Caring deeply and dealing with the complications that teams are constantly presented with had made him crispy at the edges. The second was frustrated; bored, coasting — rusting. She had signed up wanting to learn, and that was not happening any more.
+The first was burnt-out from rolling with the punches. Caring deeply and dealing with the complications that teams are constantly presented with had made him crispy at the edges. The second was frustrated; bored, coasting - rusting. She had signed up wanting to learn, and that was not happening any more.
 
 My burnt-out engineer needed recovery time. Not a day off, but some proper space. Of course, I couldn't give them a month off. But I did have a whole pile of tech debt, some of which was contributing to these complications.
 
 He was off the hook for feature work, and would take time to uncover and fix some deep annoyances that would pay off. He deep-dived into the tech debt. We met often, paired on plans, and shaped approaches he could actually deliver. Our agreement: *Bring me ideas that could pay off; let's pair on plans.*
 
-My rusted-out engineer, I let loose. She needed to experiment — to test the ideas she had — and find out how they could work.
+My rusted-out engineer, I let loose. She needed to experiment - to test the ideas she had - and find out how they could work.
 
 I gave her a sub-team, a white board and a real delivery challenge. Stakes, ownership, room to lead. Our agreement: *Come to me when you need something.*
 
@@ -96,7 +96,7 @@ Trust is often strongest when it is not overtly demanded. A leader who is truste
 
 Will this make your problems go away? No, there are always problems. It might mean you feel like you have more of them. When you build trust, expect the team to start coming to you before things break.
 
-Don't see this as a hassle. It's a signal the structure is working — and an opportunity to build stronger trust.
+Don't see this as a hassle. It's a signal the structure is working - and an opportunity to build stronger trust.
 
 ## Further reading
 
