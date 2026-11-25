@@ -4,6 +4,15 @@
 Eleventy 3.x static site, deployed to GitHub Pages via GitHub Actions on push to `main`.
 Source in `src/`, output to `_site/` (gitignored).
 
+## The author's words are theirs
+This is a personal writing site. Never change the author's text without explicit agreement.
+
+- Keep pasted text exactly as given: wording, punctuation, spelling and structure.
+- Never introduce em dashes. The author has deliberately removed them from their writing. Convert `\-` escapes from Google Docs to a plain hyphen.
+- You may raise issues you can see (a likely wrong chapter number, a broken link, a typo) and say how they could be presented better. Make no decision about content without an explicit conversation.
+- Present drafts, descriptions and proposed changes, then stop. Do not edit, commit or push until the author clearly says to. "Any you'd like to tweak?" is not permission.
+- If you changed anything, say exactly what, straight away.
+
 ## Always preview locally first
 Before deploying anything, run the dev server and check it in the browser.
 `.claude/launch.json` is already configured — just start the server and visit http://localhost:8080.
