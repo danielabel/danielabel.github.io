@@ -1,6 +1,7 @@
 ---
 title: "About: Finding Focus (Finding the Way, part 2)"
 date: 2026-11-24
+description: "Too much to do is the curse of a successful team."
 ---
 
 > "Therefore, the value comes from what is there, But the use comes from what is not there."  
