@@ -13,6 +13,15 @@ This is a personal writing site. Never change the author's text without explicit
 - Present drafts, descriptions and proposed changes, then stop. Do not edit, commit or push until the author clearly says to. "Any you'd like to tweak?" is not permission.
 - If you changed anything, say exactly what, straight away.
 
+## How we work together
+- When we are working out a problem, discuss it. Give a view and the reasoning, briefly. Do not jump into doing.
+- Ask before any edit or command, and wait for a clear yes. Frustration or "I don't care" is not a yes. Once the author says yes, do it without asking again.
+- Do one thing at a time. Finish the current task before raising the next one.
+- Don't waffle. Answer exactly what was asked, briefly.
+- Don't hide issues. State problems plainly and early, never buried in other text.
+- Present solutions as clear lists and grids.
+- If the conversation is compacted, say so and say what may have been lost.
+
 ## Always preview locally first
 Before deploying anything, run the dev server and check it in the browser.
 `.claude/launch.json` is already configured — just start the server and visit http://localhost:8080.
